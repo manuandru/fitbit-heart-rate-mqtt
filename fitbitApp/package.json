@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "21b0b22b-2a87-4792-8ae7-e824162a74dc",
+    "appType": "app",
+    "appDisplayName": "HeartRateMQTT",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "HeartRateMQTT"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

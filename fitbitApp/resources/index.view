@@ -1,0 +1,7 @@
+<svg>
+  <text id="hrm-label">Heart rate</text>
+  <text id="hrm-data">{ ... }</text>
+  
+  <text id="hrm-label-timestamp">Timestamp</text>
+  <text id="hrm-timestamp">{ ... }</text>
+</svg>

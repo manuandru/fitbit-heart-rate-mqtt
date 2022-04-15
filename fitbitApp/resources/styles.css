@@ -1,0 +1,39 @@
+#hrm-label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 32;
+  x: 50%;
+  y: $+20%;
+}
+
+#hrm-data {
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 64;
+  x: 50%;
+  y: $+10%;
+}
+
+#hrm-label-timestamp {
+  font-family: System-Light;
+  fill: white;
+  text-anchor: middle;
+  text-length: 24;
+  font-size: 24;
+  x: 50%;
+  y: $+10%;
+}
+
+#hrm-timestamp {
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: middle;
+  text-length: 24;
+  font-size: 24;
+  x: 50%;
+  y: $+5%;
+}
