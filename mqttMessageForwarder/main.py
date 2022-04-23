@@ -6,7 +6,7 @@ import sys
 client = MQTTWrapper.fromJsonConfig(sys.path[0] + "/mqttConfig.json")
 
 async def main():
-    async with websockets.serve(handleMessage, '192.168.1.49', 7890):
+    async with websockets.serve(handleMessage, '0.0.0.0', 7890):
         await asyncio.Future()
 
 async def handleMessage(websocket):
