@@ -1,4 +1,4 @@
-# Fitbit HR MQTT
+# Fitbit Heart Rate MQTT
 Fitbit app to read HR values and publish via mqtt.
 
 ## Hardware requirements
