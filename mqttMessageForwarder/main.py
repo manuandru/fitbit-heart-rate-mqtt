@@ -4,8 +4,8 @@ import websockets
 from mqtt_wrapper import MQTTWrapper
 import sys
 
-baseHeartRate = 60
-maxArousalDeviation = 10
+baseHeartRate = int(sys.argv[1])
+maxArousalDeviation = 15
 def heartRateToArousal(heartRate):
     arousal = (1/maxArousalDeviation**2) * (heartRate - baseHeartRate)**2
     return arousal if arousal <= 1 else 1
