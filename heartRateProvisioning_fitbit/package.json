@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0"
+  },
+  "fitbit": {
+    "appUUID": "46479ca3-8a22-4aec-bb2f-4ca01b0658e2",
+    "appType": "app",
+    "appDisplayName": "HeartRateProvisioning",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "HeartRateProvisioning"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

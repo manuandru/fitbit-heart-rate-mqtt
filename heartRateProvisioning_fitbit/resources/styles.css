@@ -1,0 +1,60 @@
+#hrm-average-label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 32;
+  x: 50%;
+  y: $+20%;
+}
+
+#hrm-average-data {
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 64;
+  x: 50%;
+  y: $+10%;
+}
+
+#hrm-label {
+  font-family: System-Light;
+  fill: white;
+  text-anchor: middle;
+  text-length: 24;
+  font-size: 24;
+  x: 50%;
+  y: $;
+}
+
+#hrm-data {
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: middle;
+  text-length: 24;
+  font-size: 24;
+  x: 50%;
+  y: $+5%;
+}
+
+#hrm-counter-label {
+  font-family: System-Light;
+  fill: white;
+  text-anchor: middle;
+  text-length: 24;
+  font-size: 24;
+  x: 50%;
+  y: $;
+}
+
+#hrm-counter {
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: middle;
+  text-length: 24;
+  font-size: 24;
+  x: 50%;
+  y: $+5%;
+}
+

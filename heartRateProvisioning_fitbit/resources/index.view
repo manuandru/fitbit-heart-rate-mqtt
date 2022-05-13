@@ -1,0 +1,9 @@
+<svg class="background">
+  <text id="hrm-average-label">Average</text>
+  <text id="hrm-average-data">{ ... }</text>
+  
+  <text id="hrm-label">Heart rate</text>
+  <text id="hrm-data">{ ... }</text>
+  <text id="hrm-counter-label">Counter</text>
+  <text id="hrm-counter">{ ... }</text>
+</svg>
