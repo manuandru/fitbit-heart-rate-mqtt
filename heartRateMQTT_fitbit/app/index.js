@@ -17,6 +17,10 @@ if (HeartRateSensor) {
 }
 
 function handleNewHeartRateData() {
+  
+  // Avoid screen switch off
+  display.poke();
+  
   const message = {
     heartRate: heartRateSensor.heartRate,
     timestamp: heartRateSensor.timestamp
