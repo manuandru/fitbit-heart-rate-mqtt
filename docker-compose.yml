@@ -1,0 +1,22 @@
+services:
+  mqtt-broker:
+    image: emqx/nanomq:latest
+    container_name: mqtt-broker
+    ports:
+      - "1883:1883"
+
+  mqtt-message-forwarder:
+    build:
+      context: ./mqttMessageForwarder
+      dockerfile: Dockerfile
+    container_name: mqtt-message-forwarder
+    ports:
+      - "7890:7890"
+    environment:
+      - MQTT_BROKER=mqtt-broker
+      - MQTT_PORT=1883
+      - MQTT_TOPIC=NP_UNIPR_AROUSAL
+      - MAX_AROUSAL_DEVIATION=10
+      - BASE_HEART_RATE=60
+    depends_on:
+      - mqtt-broker
